@@ -326,9 +326,23 @@ textarea {
   color: #2cc5d2;
 }
 
+.list-item.TASK_ARCHIVED_AND_PINNED .icon-star {
+  color: #2cc5d2;
+}
+
 .list-item.TASK_ARCHIVED input[type="text"] {
   color: #a0aec0;
   text-decoration: line-through;
+}
+
+.list-item.TASK_ARCHIVED_AND_PINNED input[type="text"] {
+  color: #a0aec0;
+  text-decoration: line-through;
+}
+
+.list-item.TASK_OVERDUE input[type="text"] {
+  color: #ff0000;
+  font-weight: bold;
 }
 
 .list-item:hover {
@@ -457,4 +471,8 @@ textarea {
   display: inline-block;
   vertical-align: top;
   max-width: 100%;
+}
+
+.p.FOOTER_INBOX_BLUE {
+  background-color: #1c3f53;
 }
